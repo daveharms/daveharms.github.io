@@ -4,9 +4,9 @@
 
 ### Learn About My Projects
 
-#### [External Link Project](https://www.linkedin.com/posts/activity-7069039701755617280-ko7L?utm_source=share&utm_medium=member_desktop)
+#### [Food Delivery Project](https://www.linkedin.com/posts/activity-7069039701755617280-ko7L?utm_source=share&utm_medium=member_desktop)
 [<img src="images/1685379235075.jpg?raw=true"/>](https://www.linkedin.com/posts/activity-7069039701755617280-ko7L?utm_source=share&utm_medium=member_desktop)
-An analysis on the relationship between income and the use of delivery services.
+<br> An analysis on the relationship between income and the use of delivery services.
 
 ---
 #### [Linked File Project](/files/Day 12 - 21 days to data.pdf)
