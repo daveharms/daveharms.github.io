@@ -4,7 +4,7 @@
 
 ### Learn About My Projects
 
-#### [Internal Blog Post Project](/bank)
+#### [External Link Project](https://www.linkedin.com/posts/activity-7069039701755617280-ko7L?utm_source=share&utm_medium=member_desktop)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 Tolulope is the best
 
