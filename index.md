@@ -10,6 +10,10 @@
 
 ---
 #### [The State of Education in Massachusetts](/Education_project.md)
+[<img src="images/friends.jpg?raw=true"/>](/Education_project.md)
+In this analysis, I was prompted to analyze education data from 2017 to determine which schools are scoring the highest in math, which schools have the lowest graduation rates, and to see if there is any correlation between class sizes and college acceptance rates.
+
+---
 
 #### [Linked File Project](/files/Day 12 - 21 days to data.pdf)
 <img src="images/21 Days To Data Challenge.png?raw=true"/>
@@ -21,13 +25,6 @@ For this project, I explored what a good analytics PowerPoint presentation shoul
 My final write up for Avery Smith's 21 Days To Data project covering New York City crime data. 
 
 
----
-#### [Education Project](https://www.linkedin.com/pulse/massachusetts-education-analysis-samantha-paul/)
-[<img src="images/21 Days To Data Challenge What I've Learned Cover.png?raw=true"/>](https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith)
-In this case study from Data Analytics Accelerator, I was prompted to analyze the State of Massachusetts education data. The main focuses were:
-What schools are struggling the most?
-How does class size affect college admission?
-What are the top math schools in the state? 
 
 ---
 
