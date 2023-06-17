@@ -40,6 +40,11 @@ The final chart shows the possible link between class size and the number of stu
 
 <img src="images/class size vs college.png?raw=true"/>
 
+This scatter plot was further categorized by income, with low income schools in dark blue, and high income schools in dark red. As you can see, there is a fairly even distribution of low, medium, and high income schools with class sizes between 12 and 20, with that same group having between 50 and 95% of students being accepted to colleges. This analysis doesn't show a correlation between class size and college acceptance as far as I can see. I will have to do further analysis to make a clear determination.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
+### Takeaways
+
+So far, my analysis has not come up with any actionable insights. I have shown the top 4th grade math schools, the schools with the lowest graduation rates, and how class size may affect college acceptance, but there is much more analysis to be done. 
+
+For further insights and more up-to-date data, please follow me on LinkedIn.
