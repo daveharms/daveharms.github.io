@@ -49,4 +49,4 @@ This scatter plot was further categorized by income, with low income schools in 
 
 So far, my analysis has not come up with any actionable insights. I have shown the top 4th grade math schools, the schools with the lowest graduation rates, and how class size may affect college acceptance, but there is much more analysis to be done. 
 
-For further insights and more up-to-date data, please follow me on LinkedIn.
+For further insights and more up-to-date data, please follow me on [LinkedIn](https://www.linkedin.com/in/david-r-harms/).
