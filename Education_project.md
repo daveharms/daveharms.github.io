@@ -3,6 +3,7 @@
 **Project description:** In this introduction to Tableau data visualization, I was tasked with analyzing MCAS test scores in Massachusetts for the Secretary of Education. I will be looking at how class sizes affect college admissions, the top math schools in the state, and which schools are struggling the most.
 
 
+<img src="images/state house.jpg?raw=true"/>
 
 ### 1. You can have sections and text.
 
