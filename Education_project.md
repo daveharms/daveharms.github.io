@@ -5,15 +5,14 @@
 
 <img src="images/state house.jpg?raw=true"/>
 
-### 1. You can have sections and text.
+### What I Learned
 
-Just like this. And you can even add internal coding blocks
+As a teacher in Massachusetts, this data speaks to me. The dataset analyzed was from 2017, and it showed that there is not a large effect of class size compared to college admissions.
 
-```python
-print('this is the python code I used to solve this problem')
-```
 
-### 2. You can add any images you'd like. 
+### The Analysis
+
+
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
