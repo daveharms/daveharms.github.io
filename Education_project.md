@@ -23,5 +23,23 @@ As you can see, a total of 953,748 students were included in the data, spread ac
 The top math scores were determined by analyzing results of the 4th grade math MCAS. 
 
 <img src="images/top math.png?raw=true"/>
+
+These scores reflect only the student test scores for 2017. I will have to do some further analysis to determine if there is a correlation between 4th grade math scores and graduation rates / college acceptance rates.
+
+**Lowest Graduation Rates**
+
+This chart shows the schools in the state with the lowest percentage of students who graduate high school. 
+
+<img src="images/grad percentage.png?raw=true"/>
+
+Similarly to the math scores, the Secretary of Education did not have us analyze whether the graduation rate has any significance on the number of students who are accepted to college from those schools. However, this chart **does** show that these school are struggling to get students to graduation. This will hopefully lead to discussions on what is causing these low graduation rates and how to fix those issues.
+
+**Class Size vs. College Acceptance**
+
+The final chart shows the possible link between class size and the number of students who are accepted to college.
+
+<img src="images/class size vs college.png?raw=true"/>
+
+
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
