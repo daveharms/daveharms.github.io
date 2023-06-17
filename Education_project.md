@@ -1,8 +1,8 @@
 ## Massachusetts's State of Education
 
-**Project description:** You can use this template to create projects in the future. Simply duplicate the page and change the text and images. 
+**Project description:** In this introduction to Tableau data visualization, I was tasked with analyzing MCAS test scores in Massachusetts for the Secretary of Education. I will be looking at how class sizes affect college admissions, the top math schools in the state, and which schools are struggling the most.
 
-Be sure to follow *The Interesting Project Template* as shown in [**The Data Science Project Studio**](https://www.datacareerjumpstart.com/products/the-data-science-project-studio/categories/2150357707/posts/2158441592). 
+
 
 ### 1. You can have sections and text.
 
