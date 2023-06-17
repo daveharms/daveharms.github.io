@@ -7,12 +7,14 @@
 
 ### What I Learned
 
-As a teacher in Massachusetts, this data speaks to me. The dataset analyzed was from 2017, and it showed that there is not a large effect of class size compared to college admissions.
+As a teacher in Massachusetts, this data speaks to me. The dataset analyzed was from 2017, and it showed that at the time, there was not a large effect of class size compared to college admissions.
 
 
 ### The Analysis
 
+I'll start with the dashboard, which summarizes my findings.
 
+<img src="images/education dashboard.png?raw=true"/>
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
