@@ -5,6 +5,8 @@
 
 <img src="images/state house.jpg?raw=true"/>
 
+The complete dataset for 2017 education data can be found [here.](https://www.kaggle.com/datasets/ndalziel/massachusetts-public-schools-data)
+
 ### What I Learned
 
 As a teacher in Massachusetts, this data speaks to me. The dataset analyzed was from 2017, and it showed that at the time, there was not a large effect of class size compared to college admissions.
