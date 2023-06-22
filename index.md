@@ -21,3 +21,8 @@ For this project, I explored a large (1 million+ rows) dataset to answer questio
 
 ---
 
+#### [NBA Data Analysis](https://www.linkedin.com/pulse/courtside-data-david-harms)
+[<img src="images/Dribbling Through Data.png?raw=true"/>](https://www.linkedin.com/pulse/courtside-data-david-harms)
+For this project, I explored player data from the 2021-2022 NBA season looking for any actionable insights for in-game or trade use. 
+
+---
