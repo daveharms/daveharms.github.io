@@ -28,5 +28,5 @@ For this project, I explored player data from the 2021-2022 NBA season looking f
 ---
 
 #### [Mining Data Analysis](https://www.linkedin.com/pulse/metals-r-us-python-experience-david-harms)
-
+[<img src="images/project.jpg?raw=true"/>](https://www.linkedin.com/pulse/metals-r-us-python-experience-david-harms)
 For this project, I used Python and several libraries to analyze mining data to look for any anomalies. Python is an extremely powerful tool when it comes to analytics as it can do high-level analysis with just a few short lines of code. There's a learning curve for sure, but definitely worth it.
