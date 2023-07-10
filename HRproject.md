@@ -86,10 +86,37 @@ t.test(yes_number, no_number)
 Which produced these results:
 <img src="images/HR Project/attrition by number t test.png?raw=true"/>
 
+This test calculated a p-value of 0.6768, which is much larger than the standard of 0.05. This p-value shows that there is not a high chance that layoffs being related to employee ID number are stastically significant.
+
+My next assignment was to predict an employee's monthly income based on their age. To do this, I used a linear regression model. To do this, the code in R is fairly simple:
+
+```R
+model1 = lm(MonthlyIncome ~ Age, data=hrdata)
+summary(model1)
+```
+Which returned this result:
+
+<img src="images/HR Project/linear model summary.png?raw=true"/>
+
+In these results, I found that the R-squared value is 0.2479, and the p-value is 2.2e-16, which is nearly 0. This tells me that there is a 95% confidence level that my results are statistically significant, and that about 25% of the variance in monthly income can be attributed to age of the employee. That isn't a huge variance, so I wouldn't use age as a predictor of monthly income just yet. 
+
+Based on the last information, I was asked if there was a way to predict if both age **and** the number of years an employee has worked might be better at predicting the employee's monthly income. To do this, I added the number of years worked to my previous calculation. This is known as "multivariate linear regression" since we're using more than one variable. The code looks like this:
+
+```R
+model2 = lm(MonthlyIncome ~ Age + TotalWorkingYears, data=hrdata)
+summary(model2)
+```
+Which produces these results:
+
+<img src="images/HR Project/multivariate linear model summary.png?raw=true"/>
+
+Here we can see that the p-value is still 2.2e-16, or nearly 0, which says that there is a 95% confidence that our model is statistically significant. Our R-squared value in this model is 0.5988, which means that almost 60% of the variance in monthly salary can be predicted by the employee's age **combined** with their number of years worked. This is fairly intuitive, as the older an employee is and the more work experience they have should command a higher salary.
 
 
-### 2. You can add any images you'd like. 
+### Conclusion
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+R has shown itself to be extremely powerful with statistical analysis of data. The code is relatively short, fairly easy to use, and it does a great job with pure statistical analysis. However, in my opinion, it is ugly. As a data exploration tool, I do not like the visual aspect of R. I would much prefer to use an Excel Power Chart or any of Tableau's data visualizations to explore my dataset. However, R's correlation matrix makes determining what to visualize and explore much easier. So, I would use R as an exploratory tool to find possible correlations between columns of data. I would use any other tool to visually explore these possible relationships. I would **definitely** use another tool to present my findings to a client or C-level manager.
+
+Thank you for looking through my data analysis using R project! If you'd like to see more, connect with me on [LinkedIn](https://www.linkedin.com/in/david-r-harms/). And, as always, if you're looking for a data analyst, I am open to work!
 
 
