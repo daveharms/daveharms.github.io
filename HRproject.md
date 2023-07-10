@@ -5,11 +5,13 @@
 
 **Project description:** 
 
-Be sure to follow *The Interesting Project Template* as shown in [**The Data Science Project Studio**](https://www.datacareerjumpstart.com/products/the-data-science-project-studio/categories/2150357707/posts/2158441592). 
+For this project, I was analyzing data from a human resources dataset. There had been a recent increase in the number of people leaving the company, and I was tasked to find out why. 
 
-### 1. You can have sections and text.
+### The Data
 
-Just like this. And you can even add internal coding blocks
+The original dataset came from IBM's human resources division, and can be found at [this link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset). 
+
+I used R as my tool for analysis because this project was focused on statistical analysis, and that is what R is best at. I could have also used Python or Excel, but the dataset is too large for Excel to do well, and Python, while a great language, is not as good as R for statistics.
 
 ```python
 print('this is the python code I used to solve this problem')
