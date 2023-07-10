@@ -35,4 +35,4 @@ For this project, I used Python and several libraries to analyze mining data to 
 
 #### [Where 'R' Our Employees Going?](/HRproject.md)
 [<img src="images/HR Project/cover.png?raw=true"/>](/HRproject.md)
-
+In this project, I use R to analyze a dataset from IBM's human resources department to solve several business problems. R isn't pretty, but it is an extremely powerful tool for statistical analysis, which is one of the most important parts of data analysis.
