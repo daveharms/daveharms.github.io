@@ -1,0 +1,42 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+hrdata<-read.csv("HR-Employee-Attrition.csv")
+```
+```{r}
+cor(
+  hrdata[,c("Age", "DailyRate", "DistanceFromHome", "Education", "HourlyRate", "MonthlyIncome", "MonthlyRate", "NumCompaniesWorked", "TotalWorkingYears", "TrainingTimesLastYear")]
+)
+```
+```{r}
+pairs(~MonthlyIncome+Age+TotalWorkingYears+Education,data=hrdata,main="Scatterplot Matrix")
+```
+```{r}
+boxplot(Age~Attrition,data=hrdata,main="Who Got Fired", xlab="Attrition", ylab="Age")
+```
+```{r}
+yes_age<-hrdata[(hrdata$Attrition=="Yes"),'Age']
+no_age<-hrdata[(hrdata$Attrition!="Yes"),'Age']
+
+t.test(yes_age,no_age)
+```
+```{r}
+yes_number<-hrdata[(hrdata$Attrition=="Yes"),'EmployeeNumber']
+no_number<-hrdata[(hrdata$Attrition!="Yes"),'EmployeeNumber']
+t.test(yes_number,no_number)
+```
+```{r}
+boxplot(EmployeeNumber~Attrition,data=hrdata, main="Who Got Fired", xlab="Attrition", ylab="Employee ID Number")
+```
+```{r}
+model1=lm(MonthlyIncome~Age,data=hrdata)
+summary(model1)
+```
+```{r}
+model2=lm(MonthlyIncome~Age+TotalWorkingYears,data=hrdata)
+summary(model2)
+```
+
