@@ -15,7 +15,24 @@ I used R as my tool for analysis because this project was focused on statistical
 
 **Exploration:**
 
-My first step was to use a correlation matrix to explore the data to see if there was any sort of correlation. This could usually be done with scatter plots, but the correlation matrix in R makes it even easier by combining multiple scatterplots together. R makes the correlation matrix fairly easy with just this short bit of code:
+My first step was to use a correlation matrix to explore the data to see if there was any sort of correlation. I didn't want all of the data though, just those things that might be relevant to job satisfaction and retention. I chose to use the following columns: age, daily rate, distance from home, education, hourly rate, monthly income, monthly rate, number of companies worked, total working years, and training time last year.
+
+To create the correlation matrix, I used this code:
+```R
+hrdata[ , c("Age", "DailyRate", "DistanceFromHome", "Education", "HourlyRate", "MonthlyIncome", "MonthlyRate", "NumCompaniesWorked", "TotalWorkingYears", "TrainingTimesLastYear")]
+```
+This created a new, narrowed-down version of the dataset using just the columns that I wanted to look at. Next, I created the actual matrix using the cor function:
+
+```R
+cor(
+hrdata[ , c("Age", "DailyRate", "DistanceFromHome", "Education", "HourlyRate", "MonthlyIncome", "MonthlyRate", "NumCompaniesWorked", "TotalWorkingYears", "TrainingTimesLastYear")]
+)
+```
+Which returned this result:
+
+<img src="images/HR Project/correlation.png?raw=true"/>
+
+My next step was to visualize the items with a strong correlation. This could usually be done by creating multiple scatter plots, but R makes it even easier by combining multiple scatterplots together. R makes this fairly easy with just this short bit of code:
 
 ```R
 pairs(~MonthlyIncome+Age+TotalWorkingYears+Education,data=hrdata,main="Scatterplot Matrix")
@@ -24,6 +41,7 @@ pairs(~MonthlyIncome+Age+TotalWorkingYears+Education,data=hrdata,main="Scatterpl
 The result is shown here:
 <img src="images/HR Project/scatterplot.png?raw=true"/>
 
+As is expected, the correlation between the employee's age, number of years they have been employed, and salary have a positive correlation. It stands to reason that the older you are and the longer you've been in the workforce, the more you'll get paid. 
 
 ```python
 print('this is the python code I used to solve this problem')
